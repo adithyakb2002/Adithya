@@ -1,0 +1,35 @@
+.fh1{
+    text-align: center;
+    color:blue;
+    background-color:;
+    font-size: 30px;
+}
+.p1{
+    color: blueviolet;
+}
+.div_c h1
+{
+    text-align: center;
+    color: brown;
+}
+.div_c
+{
+    color: cadetblue;
+}
+.div_c2 h1
+{
+    text-align: center;
+    color: blueviolet;
+}
+.div_c2{
+
+    color: chartreuse;
+}
+div .an,div .an{
+    color: chocolate;
+}
+.for{
+    margin-left: 30%;
+    background-color: bisque;
+    padding: 100px;
+}
