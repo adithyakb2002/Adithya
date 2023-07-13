@@ -8,19 +8,41 @@
     <title>Document</title>
     <style>
        .one{
-        margin: 1px solid black;
+        border: 1px solid black;
         background-color: aqua;
-       }
-       .two{
-        
+        padding-top: 150px;
+        padding-bottom: 150px;
+     
        }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="row">
-         <div class="col-lg-6 one">1</div>
-         <div class="col-lg two">2</div>
+        <div class="row mt-5">
+         <div class="col-lg-6 col-md-6 one"><div>
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../img/flamenco-1551386.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/wiene-museum-1217586.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/wild-horse-1334844.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+         </div></div>
+         <div class="col-lg-6 col-md-6 one"><div><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p></div></div>
         </div>
     </div>
 
